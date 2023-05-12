@@ -1,4 +1,4 @@
-6	/* * {
+/* * {
 	margin: 0px;
 	padding: 0px;
 } */
@@ -16,21 +16,21 @@ section{
 }
 .form-box{
 	position: relative;
-	background:url(welcome.jpg);
+	/* background:url(welcome.jpg); */
 	background-position: center;
 	background-size: cover;
     width: 290px;
     height: 400px;
-    /* background: transparent; */
-    /* border: 2px solid rgba(255,255,255,0.5); */
+    background: transparent; 
+    border: 2px solid rgba(255,255,255,0.5);
     border-radius: 20px;
-    /* backdrop-filter: blur(15px); */
+     backdrop-filter: blur(15px);
 	
 }
 .form-head{
 	margin-top: 70px;
 	text-align: center;
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 .email input[type="email"]
@@ -67,18 +67,17 @@ section{
 .sign-up{
 	margin-left: 25px;
 	margin-top: 15px;
-	color: white;
+	color: rgb(0, 0, 0);
 }
 .sign-up a{
-	text-decoration: antiquewhite;
-	color: aliceblue;
+	text-decoration: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
 	
 
 }
 .sign-up a:hover{
 	font-size: larger;
-	color: rgb(163, 163, 159);
+	color: rgb(189, 89, 8);
 
 }
-
 
